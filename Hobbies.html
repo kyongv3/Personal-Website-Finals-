@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="CSS/Hobbies.css">
+</head>
+<body>
+
+    <div class="hobbies-text">
+        <h1><center><button onclick= "window.location.href= 'index.html'";>MY HOBBIES</button></center>
+        </div>
+
+
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Manga</h2>
+            <a href="https://readmanganato.com/manga-dr980474" class="sin">Read</a>
+            <div class="circle"></div>
+            <img src="manga.jpg" width="200" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Light Novel</h2>
+            <a href="https://www.lightnovelpub.com/novel/overlord-lightnovel-19072354" class="sin">Read</a>
+            <div class="circle"></div>
+            <img src="overlord.jpg" width="200" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Basketball</h2>
+            <a href="https://nba.smart.com.ph/?gr=www" class="sin">No Look Pass</a>
+            <div class="circle"></div>
+            <img src="basketball.jpg" height="275"width="200" class="product">
+        </div>
+    </div>
+    <script type="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+    </script>
+</body>
+</html>

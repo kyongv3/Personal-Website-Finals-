@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tittle></tittle>
+    <link rel="stylesheet" href="CSS/Contact.css"/>
+</head>
+
+<body onload=display_ct();>
+    <script type="text/javascript">
+
+        function display_c() {
+            var refresh = 1000;
+            mytime = setTimeout('display_ct()', refresh)
+        }
+
+        function display_ct() {
+            var x = new Date()
+            document.getElementById('ct').innerHTML = x;
+            display_c();
+        }
+    </script>
+    <center><p id='ct'></p></center>
+
+    <section id="contact-form">
+    <form action="mailto:remigio.aguinaldo.iii@adamson.edu.ph" method="post" encypte="text/plain">
+
+    <div class="contact-left">
+    <h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">E-MAI</font>L ME</h1>
+    <!--name-------->
+    <div class="f-name">
+    <font >Name</font>
+    <input type="text" placeholder="Full Name"/>
+    </div>
+    <!--email-------->
+    <div class="f-email">
+    <font >Email</font>
+    <input type="email" placeholder="Example@gmail.com"/>
+    </div>
+    </div>
+    <!--right------------------------------------------->
+    <div class="contact-right">
+    <!--message-------->
+    <div class="message">
+    <font >Message</font>
+    <textarea name="message" rows="5" cols="20" placeholder="Write Message"></textarea>
+    </div>
+
+    <button>submit</button>
+    </div>
+        
+    </form>
+    </section>
+    </body>
+</html>
