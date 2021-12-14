@@ -1,0 +1,64 @@
+.table-body {
+    height: 50vh;
+    display: grid;
+    justify-content: center;
+    font-size: large;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("3.jpg");
+      height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px dimgray;
+    background-color: #2C5364;
+    text-align: center;
+    z-index: 5;
+    width: 650px;
+}
+
+thead {
+    box-shadow: 0 5px 10px lightgray;
+}
+
+th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+    font-family: poppins;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    color: #E9E4F0;
+}
+
+td{
+    padding: 2%;
+    color: white;
+}
+
+.skill {
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+    text-align: center;
+    font-family: poppins;
+
+}
+
+.skilllevel {
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+    text-align: center;
+font-family: poppins;
+}
